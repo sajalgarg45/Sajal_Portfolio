@@ -54,7 +54,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Firebase, Bootstrap, GSAP, Chart.js',
             hostingUrl: 'https://sajalgarg45.github.io/Wealthwise/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/Wealthwise',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/Wealthwise.png`,
+            imageUrl: `${process.env.PUBLIC_URL}photos/Wealthwise.png`,
         },
         {
             title: 'BLOGSPHERE',
