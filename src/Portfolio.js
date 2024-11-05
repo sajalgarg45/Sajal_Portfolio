@@ -54,7 +54,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Firebase, Bootstrap, GSAP, Chart.js',
             hostingUrl: 'https://sajalgarg45.github.io/Wealthwise/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/Wealthwise',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/Wealthwise.png`,
+            imageUrl: process.env.PUBLIC_URL + '/photos/Wealthwise.png',
         },
         {
             title: 'BLOGSPHERE',
@@ -62,7 +62,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Bootstrap, GSAP',
             hostingUrl: 'https://sajalgarg45.github.io/Blogsphere/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/Blogsphere',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/Blogosphere.png`,
+            imageUrl: process.env.PUBLIC_URL + '/photos/Blogosphere.png',
         },
         {
             title: 'FINO WORKS',
@@ -70,7 +70,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Bootstrap, GSAP, Chart.js',
             hostingUrl: 'https://sajalgarg45.github.io/2310992357_task_assign/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/2310992357_task_assign',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/FinoWorks.png`,
+            imageUrl: process.env.PUBLIC_URL + '/photos/FinoWorks.png',
         },
         {
             title: 'TIC-TAC-TOE',
@@ -78,7 +78,7 @@ function Portfolio() {
             technologies: 'React.js, Firebase',
             hostingUrl: 'https://yourproject4.com',
             sourceCodeUrl: 'https://github.com/yourusername/project4',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/Tic-Tac-Toe.png`,
+            imageUrl: process.env.PUBLIC_URL + '/photos/Tic-Tac-Toe.png',
         },
         {
             title: 'DESUITE',
@@ -86,7 +86,7 @@ function Portfolio() {
             technologies: 'Flutter, Firebase, Google Cloud',
             hostingUrl: 'https://yourproject4.com',
             sourceCodeUrl: 'https://github.com/yourusername/project4',
-            imageUrl: `${process.env.PUBLIC_URL}/photos/Desuite.jpeg`,
+            imageUrl: process.env.PUBLIC_URL + '/photos/Desuite.jpeg',
         },
     ];
 
@@ -95,25 +95,25 @@ function Portfolio() {
             title: 'Postman API Fundamentals',
             issuer: 'Canvas Credentials (Badgr)',
             year: '2024',
-            imageUrl: './photos/API.png',
+            imageUrl: process.env.PUBLIC_URL + '/photos/API.png',
         },
         {
             title: 'Introduction to Data Science',
             issuer: 'Cisco',
             year: '2024',
-            imageUrl: './photos/cisco.png',
+            imageUrl: process.env.PUBLIC_URL + '/photos/cisco.png',
         },
         {
             title: 'Full Stack Web3 Developer',
             issuer: 'C# Corner',
             year: '2014',
-            imageUrl: './photos/web3.png',
+            imageUrl: process.env.PUBLIC_URL + '/photos/web3.png',
         },
         {
             title: 'Introduction to Python',
             issuer: 'Coding Ninjas',
             year: '2024',
-            imageUrl: './photos/cn.png',
+            imageUrl: process.env.PUBLIC_URL + '/photos/cn.png',
         },
     ];
 
@@ -180,7 +180,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="image-section">
-                        <img src="./photos/pp.jpg" alt="Sajal Garg" />
+                        <img src={process.env.PUBLIC_URL + '/photos/pp.jpg'} alt="Sajal Garg" />
                     </div>
                 </div>
             </section>
@@ -307,40 +307,40 @@ function Portfolio() {
                             <p>My technical proficiencies.</p>
                             <div className="skills-grid">
                                 <div className="skill-item">
-                                    <img src="./photos/html.png" alt="HTML5" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/html.png'} alt="HTML5" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/css-3.png" alt="CSS3" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/css-3.png'} alt="CSS3" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/js.png" alt="JavaScript" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/js.png'} alt="JavaScript" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/science.png" alt="Science" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/science.png'} alt="Science" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/bootstrap.png" alt="Bootstrap" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/bootstrap.png'} alt="Bootstrap" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/postman.png" alt="Postman" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/postman.png'} alt="Postman" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/mysql.png" alt="MySQL" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/mysql.png'} alt="MySQL" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/github.png" alt="GitHub" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/github.png'} alt="GitHub" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/java.png" alt="Java" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/java.png'} alt="Java" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/c-.png" alt="C++" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/c-.png'} alt="C++" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/python.png" alt="Python" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/python.png'} alt="Python" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src="./photos/figma.png" alt="Figma" />
+                                    <img src={process.env.PUBLIC_URL + '/photos/figma.png'} alt="Figma" />
                                 </div>
                             </div>
                         </div>
