@@ -28,6 +28,7 @@ body, html {
     background-color: #121212;
     color: #fff;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -132,6 +133,16 @@ ul li:hover::after {
     ul {
         flex-direction: column; 
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: visible !important;
+    }
+
+    .section {
+        width: 110% !important;
     }
 }
 
@@ -600,7 +611,7 @@ button:hover {
     }
 
     .resume-left, .resume-right {
-        width: 100%;
+        width: 100vw;
     }
 
     .resume-right {
@@ -615,10 +626,10 @@ button:hover {
 @media (max-width: 768px) {
     .resume-content {
         flex-direction: column;
-        height: 400px;
+        height: 600px;
     }
 
-    .resume-left, .resume-right {
+.resume-right {
         width: 100%;
     }
 
@@ -628,6 +639,11 @@ button:hover {
 
     .experience-grid, .certifications-grid, .skills-grid {
         grid-template-columns: 1fr;
+    }
+
+    .resume-tab {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
