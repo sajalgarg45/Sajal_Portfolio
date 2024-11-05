@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sajal_Portfolio/static/css/main.68cbf6cf.css",
-    "main.js": "/Sajal_Portfolio/static/js/main.aa4f5672.js",
+    "main.js": "/Sajal_Portfolio/static/js/main.1780f827.js",
     "index.html": "/Sajal_Portfolio/index.html",
     "main.68cbf6cf.css.map": "/Sajal_Portfolio/static/css/main.68cbf6cf.css.map",
-    "main.aa4f5672.js.map": "/Sajal_Portfolio/static/js/main.aa4f5672.js.map"
+    "main.1780f827.js.map": "/Sajal_Portfolio/static/js/main.1780f827.js.map"
   },
   "entrypoints": [
     "static/css/main.68cbf6cf.css",
-    "static/js/main.aa4f5672.js"
+    "static/js/main.1780f827.js"
   ]
 }
