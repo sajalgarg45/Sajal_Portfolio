@@ -1,13 +1,35 @@
 {
   "files": {
     "main.css": "/Sajal_Portfolio/static/css/main.68cbf6cf.css",
-    "main.js": "/Sajal_Portfolio/static/js/main.1780f827.js",
+    "main.js": "/Sajal_Portfolio/static/js/main.c8aeeaeb.js",
+    "static/media/cn.png": "/Sajal_Portfolio/static/media/cn.44ca52763d6184f260e7.png",
+    "static/media/web3.png": "/Sajal_Portfolio/static/media/web3.abee743bdb1de188571d.png",
+    "static/media/cisco.png": "/Sajal_Portfolio/static/media/cisco.d885390b5dea8d18bd04.png",
+    "static/media/Wealthwise.png": "/Sajal_Portfolio/static/media/Wealthwise.a604cb1491bdad66b787.png",
+    "static/media/API.png": "/Sajal_Portfolio/static/media/API.c4405d2051f0bc28d214.png",
+    "static/media/pp.jpg": "/Sajal_Portfolio/static/media/pp.30270fd79d49ebc5075c.jpg",
+    "static/media/Blogosphere.png": "/Sajal_Portfolio/static/media/Blogosphere.e18010b1231eb75dc162.png",
+    "static/media/FinoWorks.png": "/Sajal_Portfolio/static/media/FinoWorks.09177a24e1cb33bf8963.png",
+    "static/media/Desuite.jpeg": "/Sajal_Portfolio/static/media/Desuite.341d475f7ee5d3e06484.jpeg",
+    "static/media/Tic-Tac-Toe.png": "/Sajal_Portfolio/static/media/Tic-Tac-Toe.adba09c77a50946a9974.png",
+    "static/media/postman.png": "/Sajal_Portfolio/static/media/postman.3b2edb8de48894143140.png",
+    "static/media/python.png": "/Sajal_Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/mysql.png": "/Sajal_Portfolio/static/media/mysql.4610cbabbff468ff8ae3.png",
+    "static/media/science.png": "/Sajal_Portfolio/static/media/science.3bf6fb4b18b1f904676d.png",
+    "static/media/java.png": "/Sajal_Portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c-.png": "/Sajal_Portfolio/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/github.png": "/Sajal_Portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/figma.png": "/Sajal_Portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/html.png": "/Sajal_Portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/Sajal_Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/Sajal_Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/Sajal_Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Sajal_Portfolio/index.html",
     "main.68cbf6cf.css.map": "/Sajal_Portfolio/static/css/main.68cbf6cf.css.map",
-    "main.1780f827.js.map": "/Sajal_Portfolio/static/js/main.1780f827.js.map"
+    "main.c8aeeaeb.js.map": "/Sajal_Portfolio/static/js/main.c8aeeaeb.js.map"
   },
   "entrypoints": [
     "static/css/main.68cbf6cf.css",
-    "static/js/main.1780f827.js"
+    "static/js/main.c8aeeaeb.js"
   ]
 }
