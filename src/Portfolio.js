@@ -1,6 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 
+import api from "./Photos/API.png";
+import blogosphere from "./Photos/Blogosphere.png";
+import bootstrap from "./Photos/bootstrap.png";
+import cimg from "./Photos/c-.png";
+import cisco from "./Photos/cisco.png";
+import cn from "./Photos/cn.png";
+import css3 from "./Photos/css-3.png";
+import desuite from "./Photos/Desuite.jpeg";
+import figma from "./Photos/figma.png";
+import github from "./Photos/github.png";
+import html from "./Photos/html.png";
+import java from "./Photos/java.png";
+import js from "./Photos/js.png";
+import mysql from "./Photos/mysql.png";
+import postman from "./Photos/postman.png";
+import python from "./Photos/python.png";
+import science from "./Photos/science.png";
+import web3 from "./Photos/web3.png";
+import pp from "./Photos/pp.jpg";
+import finoworks from "./Photos/FinoWorks.png";
+import wealthwise from "./Photos/Wealthwise.png";
+import ticTacToe from "./Photos/Tic-Tac-Toe.png";
+
 function Typewriter({ text, speed = 150 }) {
     const [displayedText, setDisplayedText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
@@ -54,7 +77,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Firebase, Bootstrap, GSAP, Chart.js',
             hostingUrl: 'https://sajalgarg45.github.io/Wealthwise/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/Wealthwise',
-            imageUrl: process.env.PUBLIC_URL + '/photos/Wealthwise.png',
+            imageUrl: wealthwise,
         },
         {
             title: 'BLOGSPHERE',
@@ -62,7 +85,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Bootstrap, GSAP',
             hostingUrl: 'https://sajalgarg45.github.io/Blogsphere/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/Blogsphere',
-            imageUrl: process.env.PUBLIC_URL + '/photos/Blogosphere.png',
+            imageUrl: blogosphere,
         },
         {
             title: 'FINO WORKS',
@@ -70,7 +93,7 @@ function Portfolio() {
             technologies: 'HTML5, CSS3, JavaScript, Bootstrap, GSAP, Chart.js',
             hostingUrl: 'https://sajalgarg45.github.io/2310992357_task_assign/',
             sourceCodeUrl: 'https://github.com/sajalgarg45/2310992357_task_assign',
-            imageUrl: process.env.PUBLIC_URL + '/photos/FinoWorks.png',
+            imageUrl: finoworks,
         },
         {
             title: 'TIC-TAC-TOE',
@@ -78,7 +101,7 @@ function Portfolio() {
             technologies: 'React.js, Firebase',
             hostingUrl: 'https://yourproject4.com',
             sourceCodeUrl: 'https://github.com/yourusername/project4',
-            imageUrl: process.env.PUBLIC_URL + '/photos/Tic-Tac-Toe.png',
+            imageUrl: ticTacToe,
         },
         {
             title: 'DESUITE',
@@ -86,7 +109,7 @@ function Portfolio() {
             technologies: 'Flutter, Firebase, Google Cloud',
             hostingUrl: 'https://yourproject4.com',
             sourceCodeUrl: 'https://github.com/yourusername/project4',
-            imageUrl: process.env.PUBLIC_URL + '/photos/Desuite.jpeg',
+            imageUrl: desuite,
         },
     ];
 
@@ -95,25 +118,25 @@ function Portfolio() {
             title: 'Postman API Fundamentals',
             issuer: 'Canvas Credentials (Badgr)',
             year: '2024',
-            imageUrl: process.env.PUBLIC_URL + '/photos/API.png',
+            imageUrl: api,
         },
         {
             title: 'Introduction to Data Science',
             issuer: 'Cisco',
             year: '2024',
-            imageUrl: process.env.PUBLIC_URL + '/photos/cisco.png',
+            imageUrl: cisco,
         },
         {
             title: 'Full Stack Web3 Developer',
             issuer: 'C# Corner',
             year: '2014',
-            imageUrl: process.env.PUBLIC_URL + '/photos/web3.png',
+            imageUrl: web3,
         },
         {
             title: 'Introduction to Python',
             issuer: 'Coding Ninjas',
             year: '2024',
-            imageUrl: process.env.PUBLIC_URL + '/photos/cn.png',
+            imageUrl: cn,
         },
     ];
 
@@ -180,7 +203,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="image-section">
-                        <img src={process.env.PUBLIC_URL + '/photos/pp.jpg'} alt="Sajal Garg" />
+                        <img src={pp} alt="Sajal Garg" />
                     </div>
                 </div>
             </section>
@@ -307,40 +330,40 @@ function Portfolio() {
                             <p>My technical proficiencies.</p>
                             <div className="skills-grid">
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/html.png'} alt="HTML5" />
+                                    <img src={html} alt="HTML5" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/css-3.png'} alt="CSS3" />
+                                    <img src={css3} alt="CSS3" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/js.png'} alt="JavaScript" />
+                                    <img src={js} alt="JavaScript" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/science.png'} alt="Science" />
+                                    <img src={science} alt="Science" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/bootstrap.png'} alt="Bootstrap" />
+                                    <img src={bootstrap} alt="Bootstrap" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/postman.png'} alt="Postman" />
+                                    <img src={postman} alt="Postman" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/mysql.png'} alt="MySQL" />
+                                    <img src={mysql} alt="MySQL" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/github.png'} alt="GitHub" />
+                                    <img src={github} alt="GitHub" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/java.png'} alt="Java" />
+                                    <img src={java} alt="Java" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/c-.png'} alt="C++" />
+                                    <img src={cimg} alt="C++" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/python.png'} alt="Python" />
+                                    <img src={python} alt="Python" />
                                 </div>
                                 <div className="skill-item">
-                                    <img src={process.env.PUBLIC_URL + '/photos/figma.png'} alt="Figma" />
+                                    <img src={figma} alt="Figma" />
                                 </div>
                             </div>
                         </div>
